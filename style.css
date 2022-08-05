@@ -25,6 +25,7 @@ color: #62D0DF;
 }
 
 .About {
+    display: flex;
     position: absolute;
 width: 233px;
 height: 14px;
