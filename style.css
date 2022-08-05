@@ -7,6 +7,8 @@ left: 0px;
 top: 0px;
 }
 .container { 
+    display: flex;
+    justify-content: flex-start;
     position: absolute;
 width: 484px;
 height: 27px;
@@ -24,7 +26,7 @@ color: #62D0DF;
 
 }
 
-.About {
+.about {
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -39,4 +41,16 @@ line-height: 16px;
 
 color: #22356F;
 
+}
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+width: 150px;
+height: 50px;
+left: 1159px;
+top: 27px;
+
+background: #62D0DF;
+border-radius: 50px;
 }
