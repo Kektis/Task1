@@ -47,6 +47,7 @@ color: #22356F;
 
 background: #62D0DF;
 background-size: 500px;
+border-radius: 10px;
    
 }
 
@@ -88,17 +89,11 @@ color: #22356F;
 
 .page-footer
 {
+    
     display: flex;
     justify-content: space-between;
-}
-.who
-{
-    font-family: 'Larsseit';
-font-size: 16px;
-align-items: center;
-letter-spacing: 0.1em;
-background: #F9B640;
-color: #FFFFFF;
+    align-items: center;
+    
 }
 
 
@@ -106,8 +101,19 @@ color: #FFFFFF;
 {
     font-family: 'Larsseit';
 font-size: 16px;
-align-items: center;
 letter-spacing: 0.1em;
 
 color: #FAB63E;
+}
+
+
+.who {
+    font-family: 'Larsseit';
+    
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background: #F9B640;
+    background-size: 500px;
+border-radius: 10px;
+
 }
