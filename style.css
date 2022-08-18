@@ -1,3 +1,7 @@
+.container {
+    padding: 200px 200px 200px 200px;
+}
+
 body {
     background-color: #F4F9E2;
     
@@ -11,7 +15,7 @@ header {
     align-items: baseline;
 
 }
-.thrivetalk { 
+.page-caption { 
     
     
     
@@ -43,15 +47,17 @@ color: #22356F;
     align-self: center;
     
 
-background: #62D0DF;
 
-border-radius: 50px;
    
 }
 .contactbutton
 {
    
-    padding: 5px;
+    padding: 15px;
+    background: #62D0DF;
+    border: 1px solid #62D0DF;
+
+border-radius: 50px;
 }
 
 
@@ -63,7 +69,7 @@ border-radius: 50px;
    
 }
 
-.thrive {
+.main-header-1 {
  margin-top: 50px;
 font-family: 'Larsseit';
 font-size: 24px;
@@ -72,7 +78,7 @@ font-size: 24px;
 color: #62D0DF;
 }
 
-.help 
+.main-header-2
 {
     
 margin-top: 50px;
@@ -84,7 +90,7 @@ letter-spacing: -0.035em;
 color: #22356F;
 }
 
-.long-text {
+.main-text {
     font-family: 'Larsseit';
 font-size: 24px;
 color: #22356F;
@@ -94,23 +100,23 @@ color: #22356F;
 {
     
     display: flex;
-    justify-content: space-between;
     align-items: center;
     
 }
 
 
-.what 
+.footer-caption-2
 {
     font-family: 'Larsseit';
 font-size: 16px;
 letter-spacing: 0.1em;
+padding-left: 100px;
 
 color: #FAB63E;
 }
 
 
-.who {
+.footer-caption-1 {
     font-family: 'Larsseit';
     align-self: center;
     letter-spacing: 0.1em;
@@ -121,6 +127,6 @@ color: #FAB63E;
 
 }
 
-.buttonwho {
+.buttonfooter-caption-1 {
     padding: 5px;
 }
