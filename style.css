@@ -2,12 +2,13 @@
     padding: 200px 200px 200px 200px;
 }
 
+@font-face {
+    font-family: Larsseit;
+    src: url(fonts/larsseit_regular.ttf);
+}
+
 body {
     background-color: #F4F9E2;
-
-
-
-
 }
 
 header {
@@ -18,26 +19,17 @@ header {
 }
 
 .page-caption {
-
-
-
     font-family: 'Larsseit';
     font-size: 24px;
-
-
     letter-spacing: -0.035em;
-
     color: #62D0DF;
 
 }
 
 .about {
-
     word-spacing: 30px;
-
     font-family: 'Larsseit';
     font-size: 14px;
-
     color: #22356F;
 
 }
@@ -47,10 +39,6 @@ header {
     font-family: 'Larsseit';
     color: #FFFFFF;
     align-self: center;
-
-
-
-
 }
 
 .contactbutton {
@@ -58,7 +46,6 @@ header {
     padding: 15px;
     background: #62D0DF;
     border: 1px solid #62D0DF;
-
     border-radius: 50px;
 }
 
@@ -67,27 +54,20 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
 }
 
-.main-header-1 {
+.caption-1 {
     margin-top: 50px;
     font-family: 'Larsseit';
     font-size: 24px;
-
-
     color: #62D0DF;
 }
 
-.main-header-2 {
-
+.caption-2 {
     margin-top: 50px;
-
     font-family: 'Larsseit';
     font-size: 48px;
     letter-spacing: -0.035em;
-
     color: #22356F;
 }
 
@@ -98,10 +78,8 @@ header {
 }
 
 .page-footer {
-
     display: flex;
     align-items: center;
-
 }
 
 
@@ -110,7 +88,6 @@ header {
     font-size: 16px;
     letter-spacing: 0.1em;
     padding-left: 100px;
-
     color: #FAB63E;
 }
 
@@ -121,18 +98,17 @@ header {
     letter-spacing: 0.1em;
     color: #FFFFFF;
     background: #F9B640;
-
-
-
 }
 
 .buttonfooter-caption-1 {
     padding: 5px;
 }
 
-@media screen and (orientation: portrait) {
-    .container
-    {padding: 50px 50px 50px 50px;}
+@media screen and (max-width: 1080px) {
+    .container {
+        padding: 50px 50px 50px 50px;
+    }
+
     .about {
         word-spacing: 1px;
     }
@@ -145,9 +121,7 @@ header {
         line-height: 20px;
     }
 
-
     .buttonfooter-caption-1 {
         padding: 0px;
     }
-
 }
